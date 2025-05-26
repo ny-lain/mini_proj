@@ -9,7 +9,7 @@ app.post('/login', (req, res) => {
     res.send('<html><body>INSIDE LOGIN API..</body></html>')
 })
 
-app.post('/search', (req, res) => {
+app.get('/search', (req, res) => {
     res.send('<html><body>INSIDE SEARCH API..</body></html>')
 })
 
